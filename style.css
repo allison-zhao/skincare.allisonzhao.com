@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Bellefair");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url("font-awesome/css/font-awesome.min.css");
+
+html {
+  font-family: 'Bellefair', serif;
+  background-color:#ffe6e6;
+}
+
+.navbar {
+  font-family: 'Bellefair', serif;
+  position: fixed;
+  top: 1em;
+  left: 2em;
+}
+
+.navbtn{
+  display: inline-block;
+  padding: 12px;
+  border-style: solid;
+  color: #333;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-right: 20px;   
+}
+
+.homepage {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 43%;
+}
+
+.fa-flask {
+  margin-left: 5%;
+}
+
+.home-title {
+  font-size: 2.5em;
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 667px) { 
+  .homepage {
+    margin-left: 1.5em;
+    margin-top: 30%;
+  }
+
+  .navbtn {
+    font-size: 1.2em;
+    padding: 8px;
+  }
+
+}
+
+
+
+
