@@ -27,7 +27,7 @@ html {
 .homepage-title {
   width: 80%;
   margin-top: 10%;
-  margin-left: 43%;
+  margin-left: 45%;
 }
 
 .homepage-content {
@@ -80,7 +80,6 @@ html {
   width: 15%;
   font-size: 1.2em;
   text-align: center;
-
 }
 
 .singletag :hover{
@@ -99,6 +98,56 @@ html {
   margin-left: 45%;
 }
 
+.getlucky-title {
+  margin-left: 37%;
+  margin-top: 2em;
+  font-size: 2.5em;
+}
+
+.fa-hand-peace-o {
+  margin-left: 15%;
+}
+
+.getlucky-grid {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin-left: 23%;
+}
+
+.getlucky-tag {
+  width: 25%;
+  font-size: 1.3em;
+  padding: 10px;
+  background-color: #ff9999;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.small-title {
+  font-size: 1.8em;
+}
+
+.getlucky-budget {
+  margin-left: 42%;
+  margin-top: 5%;
+}
+
+.budget-dropdown {
+  margin-right: 2em;
+  font-size: 1em;
+}
+
+.btn {
+  background-color: #ff8080;
+  color: white;
+  padding: 10px;
+  font-size: .8em;
+  cursor: pointer;
+}
 
 /* Mobile */
 @media only screen and (max-width: 667px) { 
