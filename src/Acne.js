@@ -32,7 +32,7 @@ export default class Acne extends Component {
         </div>
 
         {this.state.currentTag === '' &&  (
-          <div className="center-text"><i className="fa fa-hand-pointer-o" aria-hidden="true"></i><p>(Click Click)</p></div>
+          <div className="center-text"><i className="fa fa-hand-pointer-o" aria-hidden="true"></i><p>(Select an ingredient to learn more)</p></div>
         )}
         {this.state.currentTag === 'alcohol' &&  (<Alcohol />)}
         {this.state.currentTag === 'azelaicacid' &&  (<AA />)}
