@@ -48,6 +48,7 @@ html {
 .homepage-link {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 .homepage-grid :hover{
@@ -79,13 +80,24 @@ html {
   width: 15%;
   font-size: 1.2em;
   text-align: center;
+
 }
 
 .singletag :hover{
   color: blue;
 }
 
+.ingredient {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 5%;
+  font-size: 1.3em;
+}
 
+.center-text {
+  margin-top: 5em;
+  margin-left: 45%;
+}
 
 
 /* Mobile */

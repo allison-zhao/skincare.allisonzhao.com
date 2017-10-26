@@ -7,7 +7,7 @@ export default function Home() {
         <div>
             <div className="homepage-title">
                 <i className="fa fa-flask fa-3x" aria-hidden="true"></i>
-                <p className="title">Skin Drunk</p>
+                <p className="title">Skin Lab</p>
             </div>
             <div className="homepage-content">
                 <div className="homepage-grid">

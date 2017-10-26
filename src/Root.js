@@ -13,7 +13,7 @@ export default class Root extends Component {
           <div>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/acne" component={Acne} />
+              <Route path="/acne" component={Acne} />
             </Switch>
           </div>
         </div>
