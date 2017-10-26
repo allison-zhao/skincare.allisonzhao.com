@@ -24,19 +24,67 @@ html {
   margin-right: 20px;   
 }
 
-.homepage {
+.homepage-title {
   width: 80%;
   margin-top: 10%;
   margin-left: 43%;
+}
+
+.homepage-content {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.homepage-grid {
+  display: block;
+  width: 25%;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 3em;
+}
+
+.homepage-link {
+  text-decoration: none;
+  color: black;
+}
+
+.homepage-grid :hover{
+ color: blue;
 }
 
 .fa-flask {
   margin-left: 5%;
 }
 
-.home-title {
+.title{
   font-size: 2.5em;
 }
+
+.sub-title {
+  margin-top: 10%;
+  margin-left: 45%;
+  font-size: 2.5em;
+}
+
+.tags {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.singletag {
+  width: 15%;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.singletag :hover{
+  color: blue;
+}
+
 
 
 
@@ -47,9 +95,37 @@ html {
     margin-top: 30%;
   }
 
+  .homepage-title {
+    margin-left: 25%;
+    margin-top: 30%;
+  }
+
+  .title{
+    margin-bottom: 0;
+  }
+
+  .fa-flask {
+    margin-left: 1.2em;
+  }
+
+  .homepage-content{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+
+  .homepage-grid {
+    width: 50%;
+  }
+
   .navbtn {
     font-size: 1.2em;
     padding: 8px;
+  }
+
+  .sub-title {
+    margin-top: 3em;
+    margin-left: 7%;
   }
 
 }
