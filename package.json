@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://skincare.allisonzhao.com",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && ln -s -f ./index.html build/404.html",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
