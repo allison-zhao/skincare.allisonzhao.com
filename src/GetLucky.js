@@ -59,7 +59,6 @@ export default class GetLucky extends Component {
         {this.state.recommendedProducts.length > 0 && (
           <button className="clear-btn" onClick={() => this.setState({ recommendedProducts: [] })}>Clear</button>
         )}
-
       </div>
     )
   }
