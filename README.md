@@ -1,5 +1,5 @@
-## Allison's Skincare Helper
+## Allison's Skincare Lab
 
-This is still work in progress...
+This is still work in progress.
 
-A quick destination to learn about skincare ingredients and have product recommendations.
+A platform to learn about skincare ingredients and receive product recommendations through the 'Get Lucky' feature. 
