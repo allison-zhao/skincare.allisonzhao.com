@@ -4,7 +4,8 @@
 
 html {
   font-family: 'Bellefair', serif;
-  background-color:#ffe6e6;
+  background-color: #ffe0c1;
+  color: #333;
 }
 
 .navbar {
@@ -18,10 +19,10 @@ html {
   display: inline-block;
   padding: 12px;
   border-style: solid;
-  color: #333;
   font-size: 1.2em;
   text-decoration: none;
-  margin-right: 20px;   
+  margin-right: 20px;  
+  color: #333; 
 }
 
 .homepage-title {
@@ -47,13 +48,13 @@ html {
 
 .homepage-link {
   text-decoration: none;
-  color: black;
+  color: #333;
   cursor: pointer;
   font-size: 1.2em;
 }
 
 .homepage-grid :hover{
- color: blue;
+ color: #f57f00;
 }
 
 .fa-flask {
@@ -84,7 +85,7 @@ html {
 }
 
 .singletag :hover{
-  color: blue;
+ color:#f57f00;
 }
 
 .ingredient {
@@ -111,7 +112,7 @@ html {
 }
 
 .fa-hand-peace-o {
-  margin-left: 18%;
+  margin-left: 16%;
 }
 
 .getlucky-grid {
@@ -125,13 +126,17 @@ html {
   width: 25%;
   font-size: 1.5em;
   padding: 10px;
-  background-color: #ff9999;
+  background-color: #ffad4b;
   color: white;
   text-align: center;
   text-decoration: none;
   margin-right: 10px;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.getlucky-tag.active {
+  background-color: #ff8584;
 }
 
 .small-title {
@@ -149,11 +154,31 @@ html {
 }
 
 .btn {
-  background-color: #ff8080;
+  background-color: #429eff;
   color: white;
   padding: 10px;
   font-size: .8em;
   cursor: pointer;
+}
+
+.clear-btn {
+  margin-left: 45%;
+  background-color: #ff8584;
+  color: white;
+  padding: 10px;
+  font-size: .8em;
+  cursor: pointer;
+}
+
+.getlucky-recommendation {
+  width: 60%;
+  margin: 3em 30em 1em;
+  list-style: none;
+}
+
+.getlucky-eachproduct {
+  line-height: 2em;
+  font-size: 1.5em;
 }
 
 /* Mobile */
