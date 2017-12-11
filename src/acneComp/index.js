@@ -1,6 +1,7 @@
 import React from 'react';
+import acneIngredients from './acneIngredients.json'
 
-const AA = () => {
+const Acne = (props) => {
     return (
       <div className="ingredient">
         <i class="fa fa-magic" aria-hidden="true"></i><p>AZELAIC ACID</p>
@@ -10,4 +11,4 @@ const AA = () => {
     )
 }
 
-export default AA;
+export default Acne;
