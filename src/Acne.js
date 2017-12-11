@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Alcohol from './Alcohol';
-import AA from './AA';
-import BP from './BP';
-import BHA from './BHA';
-import SA from './SA';
-import Retinol from './Retinol';
+import Alcohol from './acneComp/Alcohol';
+import AA from './acneComp/AA';
+import BP from './acneComp/BP';
+import BHA from './acneComp/BHA';
+import SA from './acneComp/SA';
+import Retinol from './acneComp/Retinol';
 
 export default class Acne extends Component {
 
@@ -15,6 +15,11 @@ export default class Acne extends Component {
       currentTag: ''
     };
     this.handleClick = this.handleClick.bind(this);
+  }
+
+
+  handleClick(key){
+    this.setState({currentTag: key});
   }
 
   render() {
@@ -43,10 +48,6 @@ export default class Acne extends Component {
 
       </div>
     )
-  }
-
-  handleClick(key){
-    this.setState({currentTag: key});
   }
 
 }
