@@ -8,3 +8,8 @@ export const AcneIngredients = {
   salicylicacid: 'Salicylic Acid'
 };
 
+export const AgingIngredients = {
+  coq10: 'Coenzyme Q10 (Ubiquinone)',
+  retinol: 'Retinol',
+}
+

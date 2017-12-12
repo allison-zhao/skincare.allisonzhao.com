@@ -1,14 +1,14 @@
 {
-  "azelaicacid": {
-    "name": "AZELAIC ACID",
-    "pros": "Kills acne bacteria, reduces inflammation, can lightly improve pigmentation problems",
-    "cons": "Potential side effects include itichiness and irritation"
+  "caffeine": {
+    "name": "Caffeine",
+    "pros": "Often seen in eye creams and serums; can counteract dark circles and puffiness; alleviates symptoms of fatigue and stress",
+    "cons": "Not enough scientific evidence to back up its effectiveness"
   },
 
-  "aha": {
-    "name": "ALPHA HYDROXY ACIDS (AHAS)",
-    "pros": "excellet exfoliant, accelerates natural skin cell-turnover process, reduces wrinkles",
-    "cons": "can cause irritation from sun exposure, can worsen melasma or other pigmentation problems"
+  "coq10": {
+    "name": "COENZYME Q10 (UBIQUINONE)",
+    "pros": "Very effective antioxidant commonly seen in supplements and anti-aging topical products; preserves skin-cell function and improves skin texture",
+    "cons": "May lower blood sugar levels and blood pressure; high dosage might affect liver enzyme levels"
   },
 
   "alcohol": {
@@ -31,14 +31,16 @@
 
   "retinol": {
     "name": "RETINOL (or Retinoids)",
-    "pros": "Increases collagen production, fades dark spots from sun damage, tretinoin can treat acne",
-    "cons": "cannot be used during day time, makes skin extremely sensitive to sun exposure, can cause peeling"
+    "pros":
+      "Increases collagen production, fades dark spots from sun damage, tretinoin can treat acne",
+    "cons":
+      "cannot be used during day time, makes skin extremely sensitive to sun exposure, can cause peeling"
   },
 
   "salicylicacid": {
     "name": "SALICYLIC ACID",
     "pros": "Removes excessive oil and dead skin cells, great exfoliant",
-    "cons": "Does not work very well on cystic acne, cannot be used on really dry skin or during pregnancy"
+    "cons":
+      "Does not work very well on cystic acne, cannot be used on really dry skin or during pregnancy"
   }
-
 }
