@@ -40,7 +40,7 @@ export class SingleConcern extends Component {
           </div>
         )}
 
-        {name === 'Acne' && this.state.currentTag[0] && <Description concern="acne" selectedIngre={this.state.currentTag} />}
+        {this.state.currentTag[0] && <Description concern={name} selectedIngre={this.state.currentTag} />}
 
 
       </div>

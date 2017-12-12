@@ -1,0 +1,44 @@
+{
+  "azelaicacid": {
+    "name": "AZELAIC ACID",
+    "pros": "Kills acne bacteria, reduces inflammation, can lightly improve pigmentation problems",
+    "cons": "Potential side effects include itichiness and irritation"
+  },
+
+  "aha": {
+    "name": "ALPHA HYDROXY ACIDS (AHAS)",
+    "pros": "excellet exfoliant, accelerates natural skin cell-turnover process, reduces wrinkles",
+    "cons": "can cause irritation from sun exposure, can worsen melasma or other pigmentation problems"
+  },
+
+  "alcohol": {
+    "name": "ALCOHOL",
+    "pros": "dissolves excessive oil, minimizes pores, dries out active spots",
+    "cons": "can be over-drying and too aggressive on sensitive skin, ages skin faster"
+  },
+
+  "bha": {
+    "name": "BETA HYDROXY ACID (BHA)",
+    "pros": "Great exfoliant, penetrates deeply into pores, less irritation than AHAs",
+    "cons": "May increase skin sensitivity to sun exposure"
+  },
+
+  "benzoylperoxide": {
+    "name": "BENZOYL PEROXIDE",
+    "pros": "Kills acne bacteria, exfoliates pores",
+    "cons": "Dries and peels the skin, can cause allergic reaction"
+  },
+
+  "retinol": {
+    "name": "RETINOL (or Retinoids)",
+    "pros": "Increases collagen production, fades dark spots from sun damage, tretinoin can treat acne",
+    "cons": "cannot be used during day time, makes skin extremely sensitive to sun exposure, can cause peeling"
+  },
+
+  "salicylicacid": {
+    "name": "SALICYLIC ACID",
+    "pros": "Removes excessive oil and dead skin cells, great exfoliant",
+    "cons": "Does not work very well on cystic acne, cannot be used on really dry skin or during pregnancy"
+  }
+
+}
