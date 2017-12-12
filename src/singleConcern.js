@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Acne } from './acneComp';
 
-export default class singleConcern extends Component {
+export class SingleConcern extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -16,9 +16,10 @@ export default class singleConcern extends Component {
   }
 
   render() {
+    const { name } = this.props;
     return (
       <div>
-        <p className="sub-title">{this.props.name}</p>
+        <p className="sub-title">{name}</p>
 
         <div className="tags">
           {Object.keys(this.state.tags).map(key => (

@@ -1,14 +1,20 @@
 import React from 'react';
-import acneIngredients from './acneIngredients.json'
+import acneIngredients from './acneIngredients.json';
 
-const Acne = (props) => {
-    return (
-      <div className="ingredient">
-        <i class="fa fa-magic" aria-hidden="true"></i><p>AZELAIC ACID</p>
-        <p><i class="fa fa-smile-o" aria-hidden="true"></i> Kills acne bacteria, reduces inflammation, can lightly improve pigmentation problems</p>
-        <p><i class="fa fa-frown-o" aria-hidden="true"></i> Potential side effects include itichiness and irritation</p>
-      </div>
-    )
-}
+export const Acne = props => {
+  return (
+    <div className="ingredient">
+      <i className="fa fa-magic" aria-hidden="true" />
+      <p>AZELAIC ACID</p>
+      <p>
+        <i className="fa fa-smile-o" aria-hidden="true" /> Kills acne bacteria, reduces inflammation,
+        can lightly improve pigmentation problems
+      </p>
+      <p>
+        <i className="fa fa-frown-o" aria-hidden="true" /> Potential side effects include itichiness and
+        irritation
+      </p>
+    </div>
+  );
+};
 
-export default Acne;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import Navbar from './Navbar';
-import { SingleConcern } from './singleConcern';
+import { SingleConcern } from './SingleConcern';
 import GetLucky from './GetLucky';
 import { Acne } from './categories';
 

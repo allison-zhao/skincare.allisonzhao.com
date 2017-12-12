@@ -17,6 +17,7 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
+    "eslint-config-fullstack": "^3.0.0",
     "gh-pages": "^1.0.0",
     "react-scripts": "1.0.14"
   }

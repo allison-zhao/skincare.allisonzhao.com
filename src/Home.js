@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div>
             <div className="homepage-title">
-                <i className="fa fa-flask fa-3x" aria-hidden="true"></i>
+                <i className="fa fa-flask fa-3x" aria-hidden="true" />
                 <p className="title">Skin Lab</p>
             </div>
             <div className="homepage-content">
