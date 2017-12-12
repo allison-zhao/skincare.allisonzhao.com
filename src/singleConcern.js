@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Acne } from './acneComp';
+// import { AcneIngredients } from './categories';
 
 export class SingleConcern extends Component {
   constructor(props) {
@@ -17,6 +18,7 @@ export class SingleConcern extends Component {
 
   render() {
     const { name } = this.props;
+
     return (
       <div>
         <p className="sub-title">{name}</p>
@@ -37,12 +39,10 @@ export class SingleConcern extends Component {
             <p>(Select an ingredient to learn more)</p>
           </div>
         )}
-        {this.state.currentTag === 'alcohol' && <Acne data="Alcohol" />}
-        {this.state.currentTag === 'azelaicacid' && <Acne data="AA" />}
-        {this.state.currentTag === 'benzoylperoxide' && <Acne data="BP" />}
-        {this.state.currentTag === 'bha' && <Acne data="BHA" />}
-        {this.state.currentTag === 'retinol' && <Acne data="Retinol" />}
-        {this.state.currentTag === 'salicylicacid' && <Acne data="SA" />}
+
+        {name === 'Acne' && this.state.currentTag[0] && <Acne selectedIngre={this.state.currentTag} />}
+
+
       </div>
     );
   }
