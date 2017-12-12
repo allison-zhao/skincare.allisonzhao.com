@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Acne } from './acneComp';
-// import { AcneIngredients } from './categories';
+import { Description } from './description';
+
 
 export class SingleConcern extends Component {
   constructor(props) {
@@ -40,7 +40,7 @@ export class SingleConcern extends Component {
           </div>
         )}
 
-        {name === 'Acne' && this.state.currentTag[0] && <Acne selectedIngre={this.state.currentTag} />}
+        {name === 'Acne' && this.state.currentTag[0] && <Description concern="acne" selectedIngre={this.state.currentTag} />}
 
 
       </div>
