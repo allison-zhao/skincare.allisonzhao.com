@@ -9,7 +9,9 @@ export const AcneIngredients = {
 };
 
 export const AgingIngredients = {
+  caffeine: 'Caffeine',
   coq10: 'Coenzyme Q10 (Ubiquinone)',
+  greenteaextract: 'Green Tea Extract',
   retinol: 'Retinol',
 }
 

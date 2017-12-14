@@ -16,10 +16,11 @@ export const Description = ({ concern, selectedIngre }) => {
       <p>{ingredients[selectedIngre].name}</p>
       <p>
         <i className="fa fa-smile-o" aria-hidden="true" />
-        {ingredients[selectedIngre].pros}</p>
+         {ingredients[selectedIngre].pros}
+      </p>
       <p>
         <i className="fa fa-frown-o" aria-hidden="true" />
-        {ingredients[selectedIngre].cons}
+         {ingredients[selectedIngre].cons}
       </p>
     </div>
   );
