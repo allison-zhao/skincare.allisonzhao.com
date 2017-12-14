@@ -1,8 +1,27 @@
 {
+
+  "arginine": {
+    "name": "ARGININE",
+    "pros": "A wound-healing amino acid commonly seen in anti-aging topicals and oral supplements",
+    "cons": "Might cause abdominal pain, bloating or other side effects when taken orally"
+  },
+
+  "avobenzone": {
+    "name": "AVOBENZONE",
+    "pros": "A chemical that absorbs UVA rays, commonly used in sunscreen products",
+    "cons": "Does not work for UVB rays; chemical sunscreen tends to cause skin damage over the long term"
+  },
+
   "caffeine": {
     "name": "Caffeine",
     "pros": "Often seen in eye creams and serums; can counteract dark circles and puffiness; alleviates symptoms of fatigue and stress",
     "cons": "Not enough scientific evidence to back up its effectiveness"
+  },
+
+  "copperpep": {
+    "name": "COPPER PEPTIDES",
+    "pros": "Protects collagen from free-radical injury and soothes inflammation, stimulates collagen formation",
+    "cons": "Might cause skin irritation or digestive tract disturbances"
   },
 
   "coq10": {
@@ -17,12 +36,6 @@
     "cons": "High dosage might cause liver damage"
   },
 
-  "bha": {
-    "name": "BETA HYDROXY ACID (BHA)",
-    "pros": "Great exfoliant, penetrates deeply into pores, less irritation than AHAs",
-    "cons": "May increase skin sensitivity to sun exposure"
-  },
-
   "benzoylperoxide": {
     "name": "BENZOYL PEROXIDE",
     "pros": "Kills acne bacteria, exfoliates pores",
@@ -34,7 +47,7 @@
     "pros":
       "Increases collagen production, fades dark spots from sun damage, tretinoin can treat acne",
     "cons":
-      "cannot be used during day time, makes skin extremely sensitive to sun exposure, can cause peeling"
+      "Cannot be used during day time, makes skin extremely sensitive to sun exposure, can cause peeling"
   },
 
   "salicylicacid": {
