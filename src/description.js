@@ -1,11 +1,13 @@
 import React from 'react';
 import acneIngredients from './ingredientsData/acne.json';
 import agingIngredients from './ingredientsData/aging.json';
+import brighteningIngredients from './ingredientsData/brightening.json';
 
 export const Description = ({ concern, selectedIngre }) => {
   const dataMap = {
     Acne: acneIngredients,
     Aging: agingIngredients,
+    Brightening: brighteningIngredients,
   }
 
   const ingredients = dataMap[concern]

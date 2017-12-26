@@ -4,7 +4,7 @@ import Home from './Home';
 import Navbar from './Navbar';
 import { SingleConcern } from './SingleConcern';
 import GetLucky from './GetLucky';
-import { AcneIngredients, AgingIngredients } from './categories';
+import { AcneIngredients, AgingIngredients, BrighteningIngredients } from './categories';
 
 export const Root = () => {
   return (
@@ -26,6 +26,13 @@ export const Root = () => {
               path="/aging"
               render={props => (
                 <SingleConcern {...props} name="Aging" categories={AgingIngredients} />
+              )}
+            />
+            <Route
+              exact
+              path="/brightening"
+              render={props => (
+                <SingleConcern {...props} name="Brightening" categories={BrighteningIngredients} />
               )}
             />
 
