@@ -9,8 +9,8 @@ export const AcneIngredients = {
 };
 
 export const AgingIngredients = {
-  avobenzone: 'Avobenzone',
   arginine: 'Arginine',
+  avobenzone: 'Avobenzone',
   caffeine: 'Caffeine',
   copperpep: 'Copper Peptides',
   coq10: 'Coenzyme Q10 (Ubiquinone)',
