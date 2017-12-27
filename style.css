@@ -11,8 +11,9 @@ html {
 .navbar {
   font-family: 'Bellefair', serif;
   position: fixed;
+  /* width: 100%; */
   top: 1em;
-  left: 2em;
+  left: 1em;
 }
 
 .navbtn{
@@ -25,10 +26,14 @@ html {
   color: #333; 
 }
 
+.homepage-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .homepage-title {
-  width: 80%;
   margin-top: 10%;
-  margin-left: 45%;
+  text-align: center;
 }
 
 .homepage-content {
@@ -57,17 +62,12 @@ html {
  color: #f57f00;
 }
 
-.fa-flask {
-  margin-left: 4%;
-}
-
 .title{
   font-size: 2.5em;
 }
 
 .sub-title {
   margin-top: 10%;
-  margin-left: 45%;
   font-size: 2.5em;
 }
 
@@ -89,20 +89,18 @@ html {
 }
 
 .ingredient {
-  width: 50%;
-  margin-left: 30%;
-  margin-top: 5%;
+  width: 80%;
+  margin: 5% auto;
   font-size: 1.3em;
 }
 
-.center-text {
-  margin-top: 5em;
-  margin-left: 40%;
-  font-size: 1.2em;
+.single-concern {
+  text-align: center;
 }
 
-.fa-hand-pointer-o {
-  margin-left: 6em;
+.center-text {
+  margin-top: 3em;
+  font-size: 1.2em;
 }
 
 .getlucky-title {
@@ -183,28 +181,19 @@ html {
 
 /* Mobile */
 @media only screen and (max-width: 667px) { 
-  .homepage {
-    margin-left: 1.5em;
-    margin-top: 30%;
-  }
 
   .homepage-title {
-    margin-left: 25%;
     margin-top: 30%;
+    text-align: center;
   }
 
   .title{
     margin-bottom: 0;
   }
 
-  .fa-flask {
-    margin-left: 1.2em;
-  }
-
   .homepage-content{
     display: flex;
     flex-flow: row wrap;
-    margin: 0 auto;
   }
 
   .homepage-grid {
@@ -218,7 +207,12 @@ html {
 
   .sub-title {
     margin-top: 3em;
-    margin-left: 7%;
+  }
+
+  .singletag {
+    width: 50%;
+    font-size: 1.2em;
+    text-align: center;
   }
 
 }
