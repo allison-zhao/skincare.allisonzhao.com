@@ -11,7 +11,6 @@ html {
 .navbar {
   font-family: 'Bellefair', serif;
   background-color: #ffe0c1;
-  width: 100%;
   margin-top: 1em;
   margin-left: 1em;
 }
@@ -106,6 +105,7 @@ html {
 
 .getlucky-container {
   text-align: center;
+  margin-right: 0;
 }
 
 .getlucky-title {
@@ -122,7 +122,7 @@ html {
 }
 
 .getlucky-tag {
-  width: 30%;
+  width: 25%;
   font-size: 1.5em;
   padding: 10px;
   background-color: #ffad4b;
@@ -148,6 +148,7 @@ html {
 
 .btn {
   background-color: #429eff;
+  border-color: #429eff;
   color: white;
   padding: 10px;
   font-size: .8em;
@@ -156,6 +157,7 @@ html {
 
 .clear-btn {
   background-color: #ff8584;
+  border-color: #ff8584;
   color: white;
   padding: 10px;
   font-size: .8em;
@@ -164,7 +166,7 @@ html {
 
 .getlucky-recommendation {
   width: 80%;
-  margin: 2em auto;
+  margin: 1em auto;
   list-style: none;
   padding-left: 0;
 }
@@ -198,6 +200,15 @@ html {
 
   .getlucky-tag{
     width: 40%;
+    font-size: 1.2em;
+  }
+
+  .getlucky-title {
+    font-size: 1.5em;
+  }
+
+  .small-title{
+    font-size: 1.3em;
   }
 
 }
