@@ -20,7 +20,7 @@ export class SingleConcern extends Component {
     const { name } = this.props;
 
     return (
-      <div>
+      <div className="single-concern">
         <p className="sub-title">{name}</p>
 
         <div className="tags">

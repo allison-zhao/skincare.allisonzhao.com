@@ -7,10 +7,10 @@ export const Description = ({ concern, selectedIngre }) => {
   const dataMap = {
     Acne: acneIngredients,
     Aging: agingIngredients,
-    Brightening: brighteningIngredients,
-  }
+    Brightening: brighteningIngredients
+  };
 
-  const ingredients = dataMap[concern]
+  const ingredients = dataMap[concern];
 
   return (
     <div className="ingredient">
@@ -18,11 +18,11 @@ export const Description = ({ concern, selectedIngre }) => {
       <p>{ingredients[selectedIngre].name}</p>
       <p>
         <i className="fa fa-smile-o" aria-hidden="true" />
-         {ingredients[selectedIngre].pros}
+        {ingredients[selectedIngre].pros}
       </p>
       <p>
         <i className="fa fa-frown-o" aria-hidden="true" />
-         {ingredients[selectedIngre].cons}
+        {ingredients[selectedIngre].cons}
       </p>
     </div>
   );
