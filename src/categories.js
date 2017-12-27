@@ -19,12 +19,10 @@ export const AgingIngredients = {
 }
 
 export const BrighteningIngredients = {
+  alguronicacid: 'Alguronic Acid',
+  ascorbicacid: 'Ascorbic Acid',
+  citricacid: 'Citric Acid',
+  dmae: 'DMAE',
   vitaminc: 'Vitamin C',
-  avobenzone: 'Avobenzone',
-  caffeine: 'Caffeine',
-  copperpep: 'Copper Peptides',
-  coq10: 'Coenzyme Q10 (Ubiquinone)',
-  greenteaextract: 'Green Tea Extract',
-  retinol: 'Retinol',
 }
 

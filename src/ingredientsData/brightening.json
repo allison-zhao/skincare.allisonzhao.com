@@ -1,44 +1,32 @@
 {
-  "vitaminc": {
-    "name": "VITAMIN C",
-    "pros": "A bit of a hero ingredient - a potent natural antioxidant that also works on pigmentation and boosts collagen",
-    "cons": "The acidity might cause skin irritaion; avoid using during day time"
+  "alguronicacid": {
+    "name": "ALGURONIC ACID",
+    "pros": "Algae extracts that minimizes wrinkles and brighten the skin",
+    "cons": "No independent research proving its effectiveness"
   },
 
-  "aha": {
-    "name": "ALPHA HYDROXY ACIDS (AHAS)",
-    "pros": "Excellet exfoliant, accelerates natural skin cell-turnover process, reduces wrinkles",
-    "cons": "Can cause irritation from sun exposure, can worsen melasma or other pigmentation problems"
+  "ascorbicacid": {
+    "name": "ASCORBIC ACID",
+    "pros": "Topical form of antioxidant vitamin C that brightens the skin",
+    "cons": "Might experience redness and warm feeling of the skin, or flushing"
   },
 
-  "alcohol": {
-    "name": "ALCOHOL",
-    "pros": "Dissolves excessive oil, minimizes pores, dries out active spots",
-    "cons": "Can be over-drying and too aggressive on sensitive skin, ages skin faster"
-  },
-
-  "bha": {
-    "name": "BETA HYDROXY ACID (BHA)",
-    "pros": "Great exfoliant, penetrates deeply into pores, less irritation than AHAs",
+  "citricacid": {
+    "name": "CITRIC ACID",
+    "pros": "Often found in peels and masks, this natural fruity acid brightens and exfoliates the skin",
     "cons": "May increase skin sensitivity to sun exposure"
   },
 
-  "benzoylperoxide": {
-    "name": "BENZOYL PEROXIDE",
-    "pros": "Kills acne bacteria, exfoliates pores",
-    "cons": "Dries and peels the skin, can cause allergic reaction"
+  "dmae": {
+    "name": "DMAE",
+    "pros": "Short for dimethylaminoethanol, produced by the brain and often found in fish, helps brightening the skin",
+    "cons": "Has side effects including constipation, itching, headache, drowsiness and more when taken by mouth"
   },
 
-  "retinol": {
-    "name": "RETINOL (or Retinoids)",
-    "pros": "Increases collagen production, fades dark spots from sun damage, tretinoin can treat acne",
-    "cons": "Cannot be used during day time, makes skin extremely sensitive to sun exposure, can cause peeling"
-  },
-
-  "salicylicacid": {
-    "name": "SALICYLIC ACID",
-    "pros": "Removes excessive oil and dead skin cells, great exfoliant",
-    "cons": "Does not work very well on cystic acne, cannot be used on really dry skin or during pregnancy"
+  "vitaminc": {
+    "name": "VITAMIN C",
+    "pros":
+      "A bit of a hero ingredient - a potent natural antioxidant that also works on pigmentation and boosts collagen",
+    "cons": "The acidity might cause skin irritaion; avoid using during day time"
   }
-
 }
