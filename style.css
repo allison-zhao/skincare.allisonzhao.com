@@ -10,10 +10,10 @@ html {
 
 .navbar {
   font-family: 'Bellefair', serif;
-  position: fixed;
-  /* width: 100%; */
-  top: 1em;
-  left: 1em;
+  background-color: #ffe0c1;
+  width: 100%;
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 .navbtn{
@@ -32,7 +32,7 @@ html {
 }
 
 .homepage-title {
-  margin-top: 10%;
+  margin-top: 5em;
   text-align: center;
 }
 
@@ -64,10 +64,11 @@ html {
 
 .title{
   font-size: 2.5em;
+  margin-bottom: 0;
 }
 
 .sub-title {
-  margin-top: 10%;
+  margin-top: 1.5em;
   font-size: 2.5em;
 }
 
@@ -103,30 +104,29 @@ html {
   font-size: 1.2em;
 }
 
-.getlucky-title {
-  margin-left: 37%;
-  margin-top: 2em;
-  font-size: 2.5em;
+.getlucky-container {
+  text-align: center;
 }
 
-.fa-hand-peace-o {
-  margin-left: 16%;
+.getlucky-title {
+  font-size: 2em;
+  margin: 1.5em auto;
+  margin-bottom: 0;
 }
 
 .getlucky-grid {
   display: flex;
   flex-flow: row wrap;
-  width: 60%;
-  margin-left: 23%;
+  margin: 1em 3em;
+  justify-content: center;
 }
 
 .getlucky-tag {
-  width: 25%;
+  width: 30%;
   font-size: 1.5em;
   padding: 10px;
   background-color: #ffad4b;
   color: white;
-  text-align: center;
   text-decoration: none;
   margin-right: 10px;
   margin-top: 10px;
@@ -139,11 +139,6 @@ html {
 
 .small-title {
   font-size: 1.8em;
-}
-
-.getlucky-budget {
-  margin-left: 42%;
-  margin-top: 5%;
 }
 
 .budget-dropdown {
@@ -160,7 +155,6 @@ html {
 }
 
 .clear-btn {
-  margin-left: 45%;
   background-color: #ff8584;
   color: white;
   padding: 10px;
@@ -169,32 +163,19 @@ html {
 }
 
 .getlucky-recommendation {
-  width: 60%;
-  margin: 3em 15em 1em;
+  width: 80%;
+  margin: 2em auto;
   list-style: none;
+  padding-left: 0;
 }
 
 .getlucky-eachproduct {
   line-height: 2em;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 /* Mobile */
 @media only screen and (max-width: 667px) { 
-
-  .homepage-title {
-    margin-top: 30%;
-    text-align: center;
-  }
-
-  .title{
-    margin-bottom: 0;
-  }
-
-  .homepage-content{
-    display: flex;
-    flex-flow: row wrap;
-  }
 
   .homepage-grid {
     width: 50%;
@@ -205,14 +186,18 @@ html {
     padding: 8px;
   }
 
-  .sub-title {
-    margin-top: 3em;
-  }
-
   .singletag {
     width: 50%;
     font-size: 1.2em;
     text-align: center;
+  }
+
+  .getlucky-grid{
+    margin: .5em 1em;
+  }
+
+  .getlucky-tag{
+    width: 40%;
   }
 
 }
