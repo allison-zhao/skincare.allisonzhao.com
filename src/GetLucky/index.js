@@ -21,7 +21,7 @@ export default class GetLucky extends Component {
 
   render() {
     return (
-      <div>
+      <div className="getlucky-container">
         <div className="getlucky-title">
           <i className="fa fa-hand-peace-o" aria-hidden="true"></i>
           <p>Select your #skingoals</p>
