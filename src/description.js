@@ -2,12 +2,14 @@ import React from 'react';
 import acneIngredients from './ingredientsData/acne.json';
 import agingIngredients from './ingredientsData/aging.json';
 import brighteningIngredients from './ingredientsData/brightening.json';
+import drynessIngredients from './ingredientsData/dryness.json';
 
 export const Description = ({ concern, selectedIngre }) => {
   const dataMap = {
     Acne: acneIngredients,
     Aging: agingIngredients,
-    Brightening: brighteningIngredients
+    Brightening: brighteningIngredients,
+    Dryness: drynessIngredients
   };
 
   const ingredients = dataMap[concern];

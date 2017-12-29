@@ -26,3 +26,7 @@ export const BrighteningIngredients = {
   vitaminc: 'Vitamin C',
 }
 
+export const DrynessIngredients = {
+  hyaluronicacid: 'Hyaluronic Acid',
+}
+
