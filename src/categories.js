@@ -27,6 +27,7 @@ export const BrighteningIngredients = {
 }
 
 export const DrynessIngredients = {
+  allantoin: 'Allantoin',
   hyaluronicacid: 'Hyaluronic Acid',
 }
 
