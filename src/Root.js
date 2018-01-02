@@ -4,7 +4,22 @@ import Home from './Home';
 import Navbar from './Navbar';
 import { SingleConcern } from './SingleConcern';
 import GetLucky from './GetLucky';
-import { AcneIngredients, AgingIngredients, BrighteningIngredients, DrynessIngredients } from './categories';
+import {
+  AcneIngredients,
+  AgingIngredients,
+  BrighteningIngredients,
+  DrynessIngredients
+} from './categories';
+
+const renderRoute = (path, name, categories) => {
+  return (
+    <Route
+      exact
+      path={path}
+      render={props => <SingleConcern {...props} name={name} categories={categories} />}
+    />
+  );
+};
 
 export const Root = () => {
   return (
@@ -14,35 +29,10 @@ export const Root = () => {
         <div>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route
-              exact
-              path="/acne"
-              render={props => (
-                <SingleConcern {...props} name="Acne" categories={AcneIngredients} />
-              )}
-            />
-            <Route
-              exact
-              path="/aging"
-              render={props => (
-                <SingleConcern {...props} name="Aging" categories={AgingIngredients} />
-              )}
-            />
-            <Route
-              exact
-              path="/brightening"
-              render={props => (
-                <SingleConcern {...props} name="Brightening" categories={BrighteningIngredients} />
-              )}
-            />
-            <Route
-              exact
-              path="/dryness"
-              render={props => (
-                <SingleConcern {...props} name="Dryness" categories={DrynessIngredients} />
-              )}
-            />
-
+            {renderRoute('/acne', 'Acne', AcneIngredients)}
+            {renderRoute('/aging', 'Aging', AgingIngredients)}
+            {renderRoute('/brightening', 'Brightening', BrighteningIngredients)}
+            {renderRoute('/dryness', 'Dryness', DrynessIngredients)}
             <Route exact path="/get-lucky" component={GetLucky} />
           </Switch>
         </div>
@@ -50,4 +40,3 @@ export const Root = () => {
     </BrowserRouter>
   );
 };
-
