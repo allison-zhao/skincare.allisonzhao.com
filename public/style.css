@@ -178,9 +178,17 @@ html {
 
 /* Mobile */
 @media only screen and (max-width: 667px) { 
+  .homepage-title {
+    margin-top: 2.8em;
+  }
 
   .homepage-grid {
     width: 50%;
+  }
+
+  .homepage-content {
+    margin-top: -1.5em;
+    padding-bottom: 5em;
   }
 
   .navbtn {
