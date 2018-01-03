@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Home from './Home';
 import Navbar from './Navbar';
 import { SingleConcern } from './SingleConcern';
@@ -42,6 +42,7 @@ export const Root = () => {
             {renderRoute('/healing', 'Healing', HealingIngredients)}
             {renderRoute('/calming', 'Calming', CalmingIngredients)}
             <Route exact path="/get-lucky" component={GetLucky} />
+            <Route render={() => <Redirect to="/" />} />
           </Switch>
         </div>
       </div>
