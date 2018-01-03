@@ -5,6 +5,18 @@
     "cons": "Burning, stinging, redness, or irritation may occur if not used properly"
   },
 
+  "ceramides": {
+    "name": "CERAMIDES",
+    "pros": "Waxy lipid molecules that reinforce the skin's natural moisture barrier and lock the moisture in",
+    "cons": "Need to choose ceramide-containing products that also include cholesterol and free fatty acids in a certain ratio for it to be effective"
+  },
+
+  "Glycerin": {
+    "name": "GLYCERIN",
+    "pros": "An inexpensive ingredient used to treat or prevent dry, rough, scaly skin and minor skin irritations",
+    "cons": "Most emollients can be used safely and effectively with no side effects"
+  },
+
   "hyaluronicacid": {
     "name": "HYALURONIC ACID",
     "pros": "Replenishs moisture and revitalizes skin's outer layers",
