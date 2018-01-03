@@ -8,10 +8,10 @@
   "ceramides": {
     "name": "CERAMIDES",
     "pros": "Waxy lipid molecules that reinforce the skin's natural moisture barrier and lock the moisture in",
-    "cons": "Need to choose ceramide-containing products that also include cholesterol and free fatty acids in a certain ratio for it to be effective"
+    "cons": "Need to choose products that also include cholesterol and free fatty acids in a certain ratio for it to be effective"
   },
 
-  "Glycerin": {
+  "glycerin": {
     "name": "GLYCERIN",
     "pros": "An inexpensive ingredient used to treat or prevent dry, rough, scaly skin and minor skin irritations",
     "cons": "Most emollients can be used safely and effectively with no side effects"
@@ -21,5 +21,13 @@
     "name": "HYALURONIC ACID",
     "pros": "Replenishs moisture and revitalizes skin's outer layers",
     "cons": "Might cause skin to blister or appear discolored (a rare side effect)"
+  },
+
+  "lacticacid": {
+    "name": "LACTIC ACID",
+    "pros": "Exfoliating and hydrating, works like magic(ok, science) on dry legs in the winter and ashy arms",
+    "cons": "Burning, itching, stinging, redness, or irritation may occur"
   }
+
+  
 }

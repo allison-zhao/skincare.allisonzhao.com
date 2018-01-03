@@ -31,5 +31,6 @@ export const DrynessIngredients = {
   ceramides: 'Ceramides',
   glycerin: 'Glycerin',
   hyaluronicacid: 'Hyaluronic Acid',
+  lacticacid: 'Lactic Acid'
 }
 
