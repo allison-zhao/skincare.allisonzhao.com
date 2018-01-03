@@ -34,3 +34,11 @@ export const DrynessIngredients = {
   lacticacid: 'Lactic Acid'
 }
 
+export const ExfoliateIngredients = {
+  aceticacid: 'Acetic Acid',
+  benzoylperoxide: 'Benzoyl Peroxide',
+  glycolicacid: 'Glycolic Acid',
+  lacticacid: 'Lactic Acid',
+  salicylicacid: 'Salicylic Acid'
+}
+

@@ -8,7 +8,8 @@ import {
   AcneIngredients,
   AgingIngredients,
   BrighteningIngredients,
-  DrynessIngredients
+  DrynessIngredients,
+  ExfoliateIngredients
 } from './categories';
 
 const renderRoute = (path, name, categories) => {
@@ -33,6 +34,7 @@ export const Root = () => {
             {renderRoute('/aging', 'Aging', AgingIngredients)}
             {renderRoute('/brightening', 'Brightening', BrighteningIngredients)}
             {renderRoute('/dryness', 'Dryness', DrynessIngredients)}
+            {renderRoute('/exfoliate', 'Exfoliate', ExfoliateIngredients)}
             <Route exact path="/get-lucky" component={GetLucky} />
           </Switch>
         </div>

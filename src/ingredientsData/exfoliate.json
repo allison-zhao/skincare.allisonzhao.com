@@ -1,0 +1,34 @@
+{
+  "aceticacid": {
+    "name": "ACETIC ACID",
+    "pros":
+      "Basically vinegar. Commonly seen in Apple Cider Vinegar, paired with malic acid to tone the face, remove scalp build-up, etc",
+    "cons": "Not recommended to use alone; use with caution"
+  },
+  
+  "benzoylperoxide": {
+    "name": "BENZOYL PEROXIDE",
+    "pros": "A chemical commonly used in acne medicines that kills bacteria and exfoliates pores",
+    "cons": "Can cause serious allergic reaction (I've personally learned this the hard way)"
+  },
+
+  "glycolicacid": {
+    "name": "GLYCOLIC ACID",
+    "pros": "One of the most effective chemical exfoliators because it penetrates deeply,",
+    "cons": "Slightly irritating to the skin and could cause inflammation"
+  },
+
+  "lacticacid": {
+    "name": "LACTIC ACID",
+    "pros":
+      "Exfoliating and hydrating, works like magic(ok, science) on dry legs in the winter and ashy arms",
+    "cons": "Burning, itching, stinging, redness, or irritation may occur"
+  },
+
+  "salicylicacid": {
+    "name": "SALICYLIC ACID",
+    "pros": "Removes excessive oil and dead skin cells, great exfoliant",
+    "cons":
+      "Does not work very well on cystic acne, cannot be used on really dry skin or during pregnancy"
+  }
+}
