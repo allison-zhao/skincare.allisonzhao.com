@@ -3,13 +3,15 @@ import acneIngredients from './ingredientsData/acne.json';
 import agingIngredients from './ingredientsData/aging.json';
 import brighteningIngredients from './ingredientsData/brightening.json';
 import drynessIngredients from './ingredientsData/dryness.json';
+import exfoliateIngredients from './ingredientsData/exfoliate.json';
 
 export const Description = ({ concern, selectedIngre }) => {
   const dataMap = {
     Acne: acneIngredients,
     Aging: agingIngredients,
     Brightening: brighteningIngredients,
-    Dryness: drynessIngredients
+    Dryness: drynessIngredients,
+    Exfoliate: exfoliateIngredients,
   };
 
   const ingredients = dataMap[concern];
