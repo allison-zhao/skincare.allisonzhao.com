@@ -1,0 +1,33 @@
+{
+  "aloe": {
+    "name": "ALOE",
+    "pros": "Natural ingredient that calms the skin, reduce skin inflammation, treats wounds, and helps the skin heal",
+    "cons": "May cause abdominal cramping, allergic skin reaction, constipation, dependency if used as a laxative"
+  },
+
+  "avocado": {
+    "name": "AVOCADO",
+    "pros": "Contains vitamins A, D and E; soothes sunburned skin and boosts collagen production",
+    "cons": "Avoid during pregnancy and breast feeding as it might reduce milk production"
+  },
+
+  "coconutoil": {
+    "name": "COCONUT OIL",
+    "pros": "Strengthens underlying epidermal tissue and contains antibacterial, antiviral, antifungal and antioxidant properties",
+    "cons": "Has a high fat content so it might increase weight if used in large amounts or increase cholesterol levels."
+  },
+
+  "sheabutter": {
+    "name": "SHEA BUTTER",
+    "pros":
+      "Superrich, ultraemollient ingredient that hydrates, protects, and repairs skin efficiently",
+    "cons": "May cause hexane poisoning(very rare)"
+  },
+
+  "vitamine": {
+    "name": "VITAMIN E",
+    "pros":
+      "Soothes, moisturizes and protects against the sun's damaging rays",
+    "cons": "POSSIBLY UNSAFE if taken by mouth in high doses"
+  }
+}

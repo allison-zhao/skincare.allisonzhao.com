@@ -50,3 +50,19 @@ export const PigmentationIngredients = {
   vitaminc: 'Vitamin C'
 }
 
+export const HealingIngredients = {
+  aloe: 'Aloe',
+  avocado: 'Avocado',
+  coconutoil: 'Coconut Oil',
+  sheabutter: 'Shea Butter',
+  vitamine: 'Vitamin E',
+}
+
+export const CalmingIngredients = {
+  aloe: 'Aloe',
+  greenteaextract: 'Green Tea Extract',
+  jojoba: 'Jojoba',
+  teatreeoil: 'Tea Tree Oil',
+  whiteteaextract: 'White Tea Extract'
+}
+

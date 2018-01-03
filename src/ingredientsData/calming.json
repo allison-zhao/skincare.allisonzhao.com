@@ -1,0 +1,33 @@
+{
+  "aloe": {
+    "name": "ALOE",
+    "pros": "Natural ingredient that calms the skin, reduce skin inflammation, treats wounds, and helps the skin heal",
+    "cons": "May cause abdominal cramping, allergic skin reaction, constipation, dependency if used as a laxative"
+  },
+
+  "greenteaextract": {
+    "name": "GREEN TEA EXTRACT",
+    "pros": "Can reduce sun damage, sagging skin and wrinkles; safe and mild",
+    "cons": "High dosage might cause liver damage"
+  },
+
+  "jojoba": {
+    "name": "JOJOBA",
+    "pros": "Calms, soothes, moisturizes and controls oil; great for treating eczema, psoriasis, and chapped skin",
+    "cons": "Contains a chemical called erucic acid, which can cause serious side effects such as heart damage if taken B"
+  },
+
+  "teatreeoil": {
+    "name": "TEA TREE OIL",
+    "pros":
+      "Fight breakouts, redness and soothes inflammation on the skin, well-tolerated and comes with few side effects",
+    "cons": "Might cause skin irritation and swelling (very rare)"
+  },
+
+  "whiteteaextract": {
+    "name": "WHITE TEA EXTRACT",
+    "pros":
+      "helps to relieve puffy eyes and reduce dark circles; prevents damage and rejuvenates skin",
+    "cons": "Over-drinking white tea might cause insomnia, dizziness and gastrointestinal discomfort"
+  }
+}
