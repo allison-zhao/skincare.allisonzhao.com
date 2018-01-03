@@ -1,0 +1,35 @@
+{
+
+  "arbutin": {
+    "name": "ALPHA ARBUTIN",
+    "pros": "Inhibits tyrosinase and thus prevents the formation of melanin, also protects against free radicals",
+    "cons": "Can easily be converted to hydroquinone by the intestinal bacteria, which might lead to intestinal cancer related conditions"
+  },
+
+  "kojicacid": {
+    "name": "KOJIC ACID",
+    "pros":
+      "One of the most successful and natural skin whitening agents, derived from fungi and organic substances",
+    "cons": "May cause Contact Dermatitis"
+  },
+
+  "licorice": {
+    "name": "LICORICE ROOT EXTRACT",
+    "pros": "Naturally high in glabridin that contains the enzyme that kick-starts the discoloration process",
+    "cons": "Might cause tiredness and absence of a menstrual period "
+  },
+
+  "vitaminc": {
+    "name": "VITAMIN C",
+    "pros":
+      "A bit of a hero ingredient - a potent natural antioxidant that also works on pigmentation and boosts collagen",
+    "cons": "The acidity might cause skin irritaion; avoid using during day time"
+  },
+
+  "vitamine": {
+    "name": "VITAMIN E",
+    "pros":
+      "Soothes, moisturizes and protects against the sun's damaging rays",
+    "cons": "POSSIBLY UNSAFE if taken by mouth in high doses"
+  }
+}

@@ -42,3 +42,11 @@ export const ExfoliateIngredients = {
   salicylicacid: 'Salicylic Acid'
 }
 
+export const PigmentationIngredients = {
+  arbutin: 'Alpha Arbutin',
+  kojicacid: 'Kojic Acid',
+  licorice: 'Licorice',
+  vitamine: 'Vitamin E',
+  vitaminc: 'Vitamin C'
+}
+
