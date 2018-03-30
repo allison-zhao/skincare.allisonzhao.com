@@ -1,40 +1,20 @@
 import React, { Component } from 'react';
+import productRecs from './Products';
+
+const pairs = {
+  hydrate: 'hydrate',
+  brightening: 'brightening',
+  clearacne: 'clear acne',
+  antiaging: 'anti-aging',
+  sensitive: 'sensitive skin',
+  exfoliate: 'exfoliate'
+};
 
 export default class GetLucky extends Component {
   constructor(props) {
     super(props);
     this.state = {
       goals: ['hydrate', 'brightening', 'clear acne', 'anti-aging', 'sensitive skin', 'exfoliate'],
-      hydrate: [
-        'Neutrogena® Hydro Boost',
-        'H2O+ AquaDefense Shielding Matcha Facial Essence',
-        'Caudalie Vine Activ Overnight Detox Night Oil'
-      ],
-      brightening: [
-        'Dr. Jart+ Rubber Mask Bright Lover',
-        'Olay Luminous Miracle Boost Concentrate',
-        'Mario Badescu Vitamin C Serum'
-      ],
-      clearacne: [
-        'Kiehl’s Breakout Control Targeted Acne Spot Treatment',
-        'Clinique Acne Solutions Clinical Clearing Gel',
-        'La Roche-Posay Effaclar Dermatological 3-Step Acne System'
-      ],
-      sensitive: [
-        'Rodan + Fields Soothe Gentle Cream Wash',
-        'La Roche-Posay Toleriane Double Repair Moisturizer UV Broad Spectrum SPF 30',
-        'Dr. Andrew Weil for Origins Mega-Mushroom Skin Relief Advanced Face Serum'
-      ],
-      antiaging: [
-        'StriVectin Retinol Eye Cream',
-        'Shiseido Ultimune Power Infusing Concentrate',
-        'RoC Retinol Correxion Deep Wrinkle Daily Moisturizer'
-      ],
-      exfoliate: [
-        'Philosophy Purity Made Simple Pore Extractor Exfoliating Clay Mask',
-        'Skinfix Facial Exfoliating Pads',
-        'BareMinerals Clay Chameleon Transforming Purifying Cleanser'
-      ],
       selectedTags: [],
       recommendedProducts: []
     };
@@ -45,21 +25,13 @@ export default class GetLucky extends Component {
   handleSubmit(event) {
     event.preventDefault();
 
-    const fuseTag = (tagName, stateKey) => {
+    const fuseTag = (tagName, productKey) => {
       if (this.state.selectedTags.includes(tagName)) {
+        let currentConcern = productRecs[productKey];
         this.setState(({ recommendedProducts }) => {
-          return { recommendedProducts: [...recommendedProducts, ...this.state[stateKey]] };
+          return { recommendedProducts: [...recommendedProducts, currentConcern] };
         });
       };
-    };
-
-    const pairs = {
-      hydrate: 'hydrate',
-      brightening: 'brightening',
-      clearacne: 'clear acne',
-      antiaging: 'anti-aging',
-      sensitive: 'sensitive skin',
-      exfoliate: 'exfoliate'
     };
 
     Object.keys(pairs).forEach(key => {
@@ -103,11 +75,9 @@ export default class GetLucky extends Component {
           <p className="small-title">Preferred Budget:</p>
           <form onSubmit={event => this.handleSubmit(event)}>
             <select name="selectedBudget" className="budget-dropdown">
-              <option value="10">$10</option>
-              <option value="30">$30</option>
+              <option value="30">$20</option>
               <option value="50">$50</option>
               <option value="100">$100</option>
-              <option value="300">$300</option>
             </select>
             <button type="submit" className="btn">
               Get Lucky!
@@ -116,11 +86,13 @@ export default class GetLucky extends Component {
         </div>
 
         <ul className="getlucky-recommendation">
-          {this.state.recommendedProducts.map(product => (
-            <li className="getlucky-eachproduct" key={product}>
-              <i className="fa fa-terminal fa-lg" aria-hidden="true" /> {product}
-            </li>
-          ))}
+          {this.state.recommendedProducts.map(products => {
+            return products.map(product => (
+              <li className="getlucky-eachproduct" key={product.name}>
+                <i className="fa fa-terminal fa-lg" aria-hidden="true" /> {product.name} {product.price}
+              </li>
+            ))}
+          )}
         </ul>
 
         {this.state.recommendedProducts.length > 0 && (
