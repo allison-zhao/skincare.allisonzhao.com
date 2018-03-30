@@ -4,13 +4,13 @@
 
 html {
   font-family: 'Bellefair', serif;
-  background-color: #ffe0c1;
+  background-color: #F9EADA;
   color: #333;
 }
 
 .navbar {
   font-family: 'Bellefair', serif;
-  background-color: #ffe0c1;
+  background-color: #F9EADA;
   margin-top: 1em;
   margin-left: 1em;
 }
@@ -21,8 +21,8 @@ html {
   border-style: solid;
   font-size: 1.2em;
   text-decoration: none;
-  margin-right: 20px;  
-  color: #333; 
+  margin-right: 20px;
+  color: #333;
 }
 
 .homepage-container {
@@ -122,13 +122,14 @@ html {
 }
 
 .getlucky-tag {
-  width: 25%;
+  width: 10%;
   font-size: 1.5em;
   padding: 10px;
   background-color: #ffad4b;
+  border-radius: 4px;
   color: white;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -149,6 +150,7 @@ html {
 .btn {
   background-color: #429eff;
   border-color: #429eff;
+  border-radius: 4px;
   color: white;
   padding: 10px;
   font-size: .8em;
@@ -158,6 +160,7 @@ html {
 .clear-btn {
   background-color: #ff8584;
   border-color: #ff8584;
+  border-radius: 4px;
   color: white;
   padding: 10px;
   font-size: .8em;
@@ -177,7 +180,7 @@ html {
 }
 
 /* Mobile */
-@media only screen and (max-width: 667px) { 
+@media only screen and (max-width: 667px) {
   .homepage-title {
     margin-top: 2.8em;
   }

@@ -40,7 +40,44 @@ export default class GetLucky extends Component {
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleClick = this.handleClick.bind(this);
-  }
+  };
+
+  handleSubmit(event) {
+    event.preventDefault();
+
+    const fuseTag = (tagName, stateKey) => {
+      if (this.state.selectedTags.includes(tagName)) {
+        this.setState(({ recommendedProducts }) => {
+          return { recommendedProducts: [...recommendedProducts, ...this.state[stateKey]] };
+        });
+      };
+    };
+
+    const pairs = {
+      hydrate: 'hydrate',
+      brightening: 'brightening',
+      clearacne: 'clear acne',
+      antiaging: 'anti-aging',
+      sensitive: 'sensitive skin',
+      exfoliate: 'exfoliate'
+    };
+
+    Object.keys(pairs).forEach(key => {
+      fuseTag(pairs[key], key);
+    });
+  };
+
+  handleClick(tag) {
+    this.setState(({ selectedTags }) => {
+      if (selectedTags.includes(tag)) {
+        return {
+          selectedTags: selectedTags.filter(curTag => curTag !== tag)
+        };
+      };
+
+      return { selectedTags: [...selectedTags, tag] };
+    });
+  };
 
   render() {
     return (
@@ -93,42 +130,5 @@ export default class GetLucky extends Component {
         )}
       </div>
     );
-  }
-
-  handleSubmit(event) {
-    event.preventDefault();
-
-    const fuseTag = (tagName, stateKey) => {
-      if (this.state.selectedTags.includes(tagName)) {
-        this.setState(({ recommendedProducts }) => {
-          return { recommendedProducts: [...recommendedProducts, ...this.state[stateKey]] };
-        });
-      }
-    };
-
-    const pairs = {
-      hydrate: 'hydrate',
-      brightening: 'brightening',
-      clearacne: 'clear acne',
-      antiaging: 'anti-aging',
-      sensitive: 'sensitive skin',
-      exfoliate: 'exfoliate'
-    };
-
-    Object.keys(pairs).forEach(key => {
-      fuseTag(pairs[key], key);
-    });
-  }
-
-  handleClick(tag) {
-    this.setState(({ selectedTags }) => {
-      if (selectedTags.includes(tag)) {
-        return {
-          selectedTags: selectedTags.filter(curTag => curTag !== tag)
-        };
-      }
-
-      return { selectedTags: [...selectedTags, tag] };
-    });
-  }
-}
+  };
+};
