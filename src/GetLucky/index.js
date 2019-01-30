@@ -31,13 +31,13 @@ export default class GetLucky extends Component {
         this.setState(({ recommendedProducts }) => {
           return { recommendedProducts: [...recommendedProducts, currentConcern] };
         });
-      };
+      }
     };
 
     Object.keys(pairs).forEach(key => {
       fuseTag(pairs[key], key);
     });
-  };
+  }
 
   handleClick(tag) {
     this.setState(({ selectedTags }) => {
@@ -55,7 +55,7 @@ export default class GetLucky extends Component {
     return (
       <div className="getlucky-container">
         <div className="getlucky-title">
-          <i className="fa fa-hand-peace-o" aria-hidden="true" />
+          <i className="far fa-hand-peace-o" aria-hidden="true" />
           <p>Select your #skingoals</p>
         </div>
 
@@ -72,13 +72,7 @@ export default class GetLucky extends Component {
         </div>
 
         <div className="getlucky-budget">
-          <p className="small-title">Preferred Budget:</p>
           <form onSubmit={event => this.handleSubmit(event)}>
-            <select name="selectedBudget" className="budget-dropdown">
-              <option value="30">$20</option>
-              <option value="50">$50</option>
-              <option value="100">$100</option>
-            </select>
             <button type="submit" className="btn">
               Get Lucky!
             </button>
@@ -89,18 +83,18 @@ export default class GetLucky extends Component {
           {this.state.recommendedProducts.map(products => {
             return products.map(product => (
               <li className="getlucky-eachproduct" key={product.name}>
-                <i className="fa fa-terminal fa-lg" aria-hidden="true" /> {product.name} {product.price}
+            <i className="fa fa-terminal fa-lg" aria-hidden="true" /> {`${product.name}  $${product.price}`}
               </li>
-            ))}
-          )}
+            ))
+          })}
         </ul>
 
         {this.state.recommendedProducts.length > 0 && (
-          <button className="clear-btn" onClick={() => this.setState({ recommendedProducts: [] })}>
-            Clear
+          <button type="submit" className="clear-btn" onClick={() => this.setState({ recommendedProducts: [] })}>
+            Clear cache
           </button>
         )}
       </div>
     );
-  };
-};
+  }
+}

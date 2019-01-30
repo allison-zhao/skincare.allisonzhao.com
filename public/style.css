@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Bellefair");
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 @import url("font-awesome/css/font-awesome.min.css");
 
 html {
   font-family: 'Bellefair', serif;
   background-color: #F9EADA;
   color: #333;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar {
@@ -63,12 +67,11 @@ html {
 
 .title{
   font-size: 2.5em;
-  margin-bottom: 0;
+  margin-bottom: .5em;
 }
 
 .sub-title {
-  margin-top: 1.5em;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .tags {
@@ -102,6 +105,8 @@ html {
   margin-top: 3em;
   font-size: 1.2em;
 }
+
+/* get lucky */
 
 .getlucky-container {
   text-align: center;
@@ -141,13 +146,13 @@ html {
   background-color: #ff8584;
 }
 
-.small-title {
-  font-size: 1.8em;
+.fa-hand-point-up {
+  margin-right: .5em;
 }
 
-.budget-dropdown {
-  margin-right: 2em;
+.small-description {
   font-size: 1em;
+  margin: 0;
 }
 
 .btn {
@@ -182,6 +187,14 @@ html {
   line-height: 2em;
   font-size: 1.2em;
 }
+
+
+/* feature to be developed */
+
+/* .budget-dropdown {
+  margin-right: 2em;
+  font-size: 1em;
+} */
 
 /* Mobile */
 @media only screen and (max-width: 667px) {
@@ -220,11 +233,6 @@ html {
   .getlucky-title {
     font-size: 1.5em;
   }
-
-  .small-title{
-    font-size: 1.3em;
-  }
-
 }
 
 

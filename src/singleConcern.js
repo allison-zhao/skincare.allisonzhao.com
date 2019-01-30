@@ -21,7 +21,7 @@ export class SingleConcern extends Component {
 
     return (
       <div className="single-concern">
-        <p className="sub-title">{name}</p>
+        <p className="title">{name}</p>
 
         <div className="tags">
           {Object.keys(this.state.tags).map(key => (
@@ -35,7 +35,7 @@ export class SingleConcern extends Component {
 
         {this.state.currentTag === '' && (
           <div className="center-text">
-            <i className="fa fa-hand-pointer-o" aria-hidden="true" />
+            <i className="far fa-hand-pointer-o" aria-hidden="true" />
             <p>(Select an ingredient to learn more)</p>
           </div>
         )}
