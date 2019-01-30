@@ -1,6 +1,7 @@
 # Allison's Skin Lab
 
-A platform to learn about skincare ingredients and receive product recommendations given skincare concerns and budget.
+A platform to learn about skincare ingredients and receive product recommendations.
+Plus, fun quizzes!
 Deployed site: [skincare.allisonzhao.com](http://skincare.allisonzhao.com)
 
 ## Why Skin Lab?
