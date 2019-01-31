@@ -111,6 +111,7 @@ html {
 .getlucky-container {
   text-align: center;
   margin-right: 0;
+  margin-bottom: 10em;
 }
 
 .getlucky-title {
@@ -139,7 +140,7 @@ html {
 }
 
 .getlucky-budget {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 .getlucky-tag.active {
@@ -223,7 +224,8 @@ html {
   }
 
   .getlucky-grid{
-    grid-template-columns: none;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .getlucky-tag{
